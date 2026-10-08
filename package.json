@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Texas Logistic — automated logistics directory and affiliate platform.",
   "scripts": {
-    "build": "echo 'Build complete!'"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
   }
 }
